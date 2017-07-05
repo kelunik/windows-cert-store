@@ -1,0 +1,22 @@
+{
+    "name": "kelunik/windows-cert-store",
+    "description": "Query all certificates from the Windows certificate store.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niklas Keller",
+            "email": "me@kelunik.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kelunik\\WindowsCertStore\\": "src"
+        }
+    },
+    "require": {
+        "amphp/amp": "^2",
+        "amphp/windows-registry": "^0.3.0",
+        "kelunik/certificate": "^1.1"
+    }
+}
